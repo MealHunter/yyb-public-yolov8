@@ -1,0 +1,39 @@
+2024-09-27 10:25:40.787 I [MediaServer.exe] [12680-12556] main.cpp:261 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-04-01T12:59:18)
+2024-09-27 10:25:40.788 D [MediaServer.exe] [12680-stamp thread] util.cpp:366 operator () | Stamp thread started
+2024-09-27 10:25:40.791 I [MediaServer.exe] [12680-12556] EventPoller.cpp:470 EventPollerPool | EventPoller created size: 16
+2024-09-27 10:25:40.792 I [MediaServer.exe] [12680-12556] TcpServer.cpp:214 start_l | TCP server listening on [::]: 9554
+2024-09-27 10:25:40.792 I [MediaServer.exe] [12680-12556] TcpServer.cpp:214 start_l | TCP server listening on [::]: 332
+2024-09-27 10:25:40.792 I [MediaServer.exe] [12680-12556] TcpServer.cpp:214 start_l | TCP server listening on [::]: 1935
+2024-09-27 10:25:40.793 I [MediaServer.exe] [12680-12556] TcpServer.cpp:214 start_l | TCP server listening on [::]: 19350
+2024-09-27 10:25:40.793 I [MediaServer.exe] [12680-12556] TcpServer.cpp:214 start_l | TCP server listening on [::]: 9002
+2024-09-27 10:25:40.793 I [MediaServer.exe] [12680-12556] TcpServer.cpp:214 start_l | TCP server listening on [::]: 443
+2024-09-27 10:25:40.794 I [MediaServer.exe] [12680-12556] TcpServer.cpp:214 start_l | TCP server listening on [::]: 9000
+2024-09-27 10:25:40.794 I [MediaServer.exe] [12680-12556] TcpServer.cpp:214 start_l | TCP server listening on [::]: 10000
+2024-09-27 10:25:40.795 I [MediaServer.exe] [12680-12556] UdpServer.cpp:108 start_l | UDP server bind to [::]: 10000
+2024-09-27 10:25:40.795 I [MediaServer.exe] [12680-12556] UdpServer.cpp:108 start_l | UDP server bind to [::]: 9000
+2024-09-27 10:25:40.795 I [MediaServer.exe] [12680-12556] main.cpp:411 start_main | 已启动http api 接口
+2024-09-27 10:25:40.795 I [MediaServer.exe] [12680-12556] main.cpp:413 start_main | 已启动http hook 接口
+2024-09-27 10:26:01.577 D [MediaServer.exe] [12680-event poller 0] MediaSink.cpp:150 emitAllTrackReady | All track ready use 0ms
+2024-09-27 10:26:01.577 I [MediaServer.exe] [12680-event poller 0] MediaSource.cpp:503 emitEvent | 媒体注册:fmp4://__defaultVhost__/live/test
+2024-09-27 10:26:01.577 I [MediaServer.exe] [12680-event poller 0] MultiMediaSourceMuxer.cpp:444 onAllTrackReady | stream: rtsp://127.0.0.1:9554/live/test , codec info: H264[1920/1080/30] 
+2024-09-27 10:26:01.577 I [MediaServer.exe] [12680-event poller 0] MediaSource.cpp:503 emitEvent | 媒体注册:rtsp://__defaultVhost__/live/test
+2024-09-27 10:26:01.578 I [MediaServer.exe] [12680-event poller 0] MediaSource.cpp:503 emitEvent | 媒体注册:rtmp://__defaultVhost__/live/test
+2024-09-27 10:26:11.879 I [MediaServer.exe] [12680-event poller 0] MediaSource.cpp:503 emitEvent | 媒体注销:rtmp://__defaultVhost__/live/test
+2024-09-27 10:26:11.879 I [MediaServer.exe] [12680-event poller 0] MediaSource.cpp:503 emitEvent | 媒体注销:fmp4://__defaultVhost__/live/test
+2024-09-27 10:26:11.879 I [MediaServer.exe] [12680-event poller 0] MediaSource.cpp:503 emitEvent | 媒体注销:rtsp://__defaultVhost__/live/test
+2024-09-27 10:26:11.879 W [MediaServer.exe] [12680-event poller 0] RtspSession.cpp:64 onError | 1-940(127.0.0.1:65125) RTSP推流器(__defaultVhost__/live/test)断开:recv teardown request,耗时(s):10
+2024-09-27 10:29:24.382 I [MediaServer.exe] [20572-23976] main.cpp:261 start_main | ZLMediaKit(git hash:/,branch:,build time:2024-04-01T12:59:18)
+2024-09-27 10:29:24.383 D [MediaServer.exe] [20572-stamp thread] util.cpp:366 operator () | Stamp thread started
+2024-09-27 10:29:24.386 I [MediaServer.exe] [20572-23976] EventPoller.cpp:470 EventPollerPool | EventPoller created size: 16
+2024-09-27 10:29:24.387 I [MediaServer.exe] [20572-23976] TcpServer.cpp:214 start_l | TCP server listening on [::]: 9554
+2024-09-27 10:29:24.387 I [MediaServer.exe] [20572-23976] TcpServer.cpp:214 start_l | TCP server listening on [::]: 332
+2024-09-27 10:29:24.388 I [MediaServer.exe] [20572-23976] TcpServer.cpp:214 start_l | TCP server listening on [::]: 1935
+2024-09-27 10:29:24.388 I [MediaServer.exe] [20572-23976] TcpServer.cpp:214 start_l | TCP server listening on [::]: 19350
+2024-09-27 10:29:24.389 I [MediaServer.exe] [20572-23976] TcpServer.cpp:214 start_l | TCP server listening on [::]: 9002
+2024-09-27 10:29:24.389 I [MediaServer.exe] [20572-23976] TcpServer.cpp:214 start_l | TCP server listening on [::]: 443
+2024-09-27 10:29:24.389 I [MediaServer.exe] [20572-23976] TcpServer.cpp:214 start_l | TCP server listening on [::]: 9000
+2024-09-27 10:29:24.390 I [MediaServer.exe] [20572-23976] TcpServer.cpp:214 start_l | TCP server listening on [::]: 10000
+2024-09-27 10:29:24.390 I [MediaServer.exe] [20572-23976] UdpServer.cpp:108 start_l | UDP server bind to [::]: 10000
+2024-09-27 10:29:24.391 I [MediaServer.exe] [20572-23976] UdpServer.cpp:108 start_l | UDP server bind to [::]: 9000
+2024-09-27 10:29:24.391 I [MediaServer.exe] [20572-23976] main.cpp:411 start_main | 已启动http api 接口
+2024-09-27 10:29:24.391 I [MediaServer.exe] [20572-23976] main.cpp:413 start_main | 已启动http hook 接口

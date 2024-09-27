@@ -2,10 +2,10 @@
 视频ai识别项目
 
 ### 整个YoloV8视频识别系统主要包括：admin管理端，media流媒体端，分析端analyzer(c++), 模型端yolo
-![](https://wqknowledge.oss-cn-shenzhen.aliyuncs.com/LLM/yolov8.svg)
+![img_1.png](picture/img_1.png)
 
 效果图：
-![](https://wqknowledge.oss-cn-shenzhen.aliyuncs.com/LLM/xg1.png)
+![img_2.png](picture/img_2.png)
 
 ### 1、admin 启动
  进入到admin目录下执行：
@@ -30,13 +30,17 @@ admin/admin888
 ```
 
 ### 2、analyzer 启动
+需要自己将第三方库的文件加到Release文件夹当中，手动的将库文件加载到C++项目当中。将第三方库当中的bin目录下的所有.dll文件复制到
+下面这个文件夹当中
+..\Analyzer\x64\Release
+![img.png](picture/img.png)
 ```shell
 ## 使用Visual stadio启动c++项目 打开
 
 Analyzer.sln
 ```
 启动后的界面（端口默认9703）：
-![](https://wqknowledge.oss-cn-shenzhen.aliyuncs.com/LLM/vsruna.png)
+![img_3.png](picture/img_3.png)
 
 
 ### 3、mediaServer 启动
@@ -60,6 +64,6 @@ python main.py
 ```
 
 ### 5、使用过程中的设置如何布控，如何选定识别算法等，如下：
-![](https://wqknowledge.oss-cn-shenzhen.aliyuncs.com/LLM/sz1.png)
+![img_4.png](picture/img_4.png)
 
 
